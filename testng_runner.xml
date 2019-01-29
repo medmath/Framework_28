@@ -1,5 +1,5 @@
 TESTNG_runner.xml
-        <!DOCTYPE suite SYSTEM "http://52.39.162.23/web/login" >
+        <!DOCTYPE suite SYSTEM "http://52.39.162.23/web/com.lunch.tests.functional_tests.com.lunch.tests.functional_tests.login" >
 <suite name="Lunch" verbose="1">
 
     <test name="Lunch Automated Tests">
