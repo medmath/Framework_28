@@ -6,6 +6,7 @@ import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 
@@ -49,5 +50,19 @@ public abstract class TestBase {
         htmlReporter = new ExtentHtmlReporter(filePath);
 
         report.attachReporter(htmlReporter);
+// details
+        report.setSystemInfo("Environment", "Staging");
+        report.setSystemInfo("Browser", ConfigurationReader.getProperty("browser"));
+        report.setSystemInfo("OS", System.getProperty("os.name"));
+        report.setSystemInfo("QA Engineers", System.getProperty("Group_28"));
+        htmlReporter.config().setDocumentTitle("Prestashop Reports");
+        htmlReporter.config().setReportName("Lunch Automated Test Reports");
+//        htmlReporter.config().setTheme(Theme.DARK);
+
+    }
+
+    @AfterTest
+    public void tearDownTest() {
+        report.flush();
     }
 }
