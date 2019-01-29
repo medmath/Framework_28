@@ -55,7 +55,7 @@ public abstract class TestBase {
         report.setSystemInfo("Browser", ConfigurationReader.getProperty("browser"));
         report.setSystemInfo("OS", System.getProperty("os.name"));
         report.setSystemInfo("QA Engineers", System.getProperty("Group_28"));
-        htmlReporter.config().setDocumentTitle("Prestashop Reports");
+        htmlReporter.config().setDocumentTitle("Lunch Reports");
         htmlReporter.config().setReportName("Lunch Automated Test Reports");
 //        htmlReporter.config().setTheme(Theme.DARK);
 
