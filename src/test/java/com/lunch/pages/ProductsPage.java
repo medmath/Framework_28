@@ -1,4 +1,4 @@
 package com.lunch.pages;
 
-public class TodaysOrders {
+public class ProductsPage {
 }
