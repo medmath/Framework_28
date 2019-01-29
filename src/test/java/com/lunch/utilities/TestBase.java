@@ -49,3 +49,5 @@ public abstract class TestBase {
         htmlReporter = new ExtentHtmlReporter(filePath);
 
         report.attachReporter(htmlReporter);
+    }
+}
