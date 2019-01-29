@@ -1,0 +1,18 @@
+TESTNG_runner.xml
+        <!DOCTYPE suite SYSTEM "http://52.39.162.23/web/login" >
+<suite name="Lunch" verbose="1">
+
+    <test name="Lunch Automated Tests">
+        <packages>
+            <package name=".*"></package>
+        </packages>
+    </test>
+
+</suite>
+
+
+
+
+
+
+
