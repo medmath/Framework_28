@@ -18,8 +18,92 @@ public class Pages {
 
 
 
+    public LoginPage login(){
+        if(loginPage == null){
+            loginPage = new LoginPage();
+        }
+        return loginPage;
+    }
 
 
+    public AlertsPage getAlertsPage(){
+        if(alertsPage == null){
+            alertsPage = new AlertsPage();
+        }
+        return alertsPage;
+    }
 
+
+    public ControlAccountsPage getControlAccountsPage(){
+        if(controlAccountsPage == null){
+            controlAccountsPage = new ControlAccountsPage();
+        }
+        return controlAccountsPage;
+    }
+
+
+    public EmployeePaymentsPage getEmployeePaymentsPage(){
+        if(employeePaymentsPage == null){
+            employeePaymentsPage = new EmployeePaymentsPage();
+        }
+        return employeePaymentsPage;
+    }
+
+
+    public OrdersByVendorPage getOrdersByVendorPage (){
+        if(ordersByVendorPage == null){
+            ordersByVendorPage = new OrdersByVendorPage();
+        }
+        return ordersByVendorPage;
+    }
+
+
+    public NewOrderPage getNewOrderPage(){
+        if(newOrderPage == null){
+            newOrderPage = new NewOrderPage();
+        }
+        return newOrderPage;
+    }
+
+
+    public PreviousOrdersPage getPreviousOrdersPage(){
+        if(previousOrdersPage == null){
+            previousOrdersPage = new PreviousOrdersPage();
+        }
+        return previousOrdersPage;
+    }
+
+
+    public ProductCategoriesPage getProductCategoriesPage(){
+        if(productCategoriesPage == null){
+            productCategoriesPage = new ProductCategoriesPage();
+        }
+        return productCategoriesPage;
+    }
+
+
+    public ProductsPage getProductsPage(){
+        if(productsPage == null){
+            productsPage = new ProductsPage();
+        }
+        return productsPage;
+    }
+
+
+    public TodaysOrdersPage getTodaysOrdersPage(){
+        if(todaysOrdersPage == null){
+            todaysOrdersPage = new TodaysOrdersPage();
+        }
+        return todaysOrdersPage;
+    }
+
+
+    public YourLunchAccountPage getYourLunchAccountPage(){
+        if(yourLunchAccountPage == null){
+            yourLunchAccountPage = new YourLunchAccountPage();
+        }
+        return yourLunchAccountPage;
+    }
 
 }
+
