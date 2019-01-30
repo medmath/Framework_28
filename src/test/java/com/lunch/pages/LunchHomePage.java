@@ -1,11 +1,17 @@
 package com.lunch.pages;
 
+import com.lunch.utilities.Driver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 public class LunchHomePage {
+    public LunchHomePage(){
+        PageFactory.initElements(Driver.getDriver(),this);
+    }
 
-    @FindBy(xpath = "/html/body/div[1]/div[1]/div[1]/div[13]/ul[1]/li[2]/a/span")
+
+   @FindBy(linkText = "Previous Orders")
     public WebElement previousOrderButton;
 
 
