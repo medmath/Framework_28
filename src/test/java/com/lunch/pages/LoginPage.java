@@ -30,8 +30,10 @@ public class LoginPage {
     @FindBy( xpath = "//*[@id='oe_main_menu_navbar']/div[2]/ul[1]/li[13]/a/span")
     public WebElement lunchButton;
 
-    @FindBy(xpath = "//*[@id='modal_9']/div/div/div[3]/button/span")
+    //@FindBy(xpath = "//*[@id='modal_9']/div/div/div[3]/button/span")
+    @FindBy(xpath = "//*[.='Ok']")
     public WebElement popUpOkButton;
+
 
     public void login(String mail, String pass){
         britDemo.click();
