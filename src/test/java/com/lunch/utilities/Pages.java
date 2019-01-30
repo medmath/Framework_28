@@ -4,6 +4,7 @@ import com.lunch.pages.*;
 
 public class Pages {
     private LoginPage loginPage;
+    private LunchHomePage lunchHomePage;
     private AlertsPage alertsPage;
     private ControlAccountsPage controlAccountsPage;
     private EmployeePaymentsPage employeePaymentsPage;
@@ -25,6 +26,12 @@ public class Pages {
         return loginPage;
     }
 
+    public LunchHomePage lunchHomePage(){
+        if(lunchHomePage == null){
+            lunchHomePage = new LunchHomePage();
+        }
+        return lunchHomePage;
+    }
 
     public AlertsPage getAlertsPage(){
         if(alertsPage == null){
