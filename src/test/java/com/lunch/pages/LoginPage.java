@@ -27,6 +27,9 @@ public class LoginPage {
     @FindBy(xpath = "//*[@id=\"wrapwrap\"]/main/div/form/div[4]/button")
     public WebElement loginButton;
 
+    @FindBy( xpath = "//*[@id='oe_main_menu_navbar']/div[2]/ul[1]/li[13]/a/span")
+    public WebElement lunchButton;
+
     public void login(String mail, String pass){
         britDemo.click();
         email.sendKeys(mail);
@@ -34,6 +37,11 @@ public class LoginPage {
         loginButton.click();
 
     }
+
+    public void clickLunchButton(){
+        lunchButton.click();
+    }
+
     public void open(){
         Driver.getDriver().get(ConfigurationReader.getProperty("url"));
     }
