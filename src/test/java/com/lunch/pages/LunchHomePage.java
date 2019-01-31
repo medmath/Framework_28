@@ -23,4 +23,23 @@ public class LunchHomePage {
     @FindBy(linkText = "Product Categories")
     public WebElement productCategoriesButton;
 
+    @FindBy(css = ".modal-footer span")
+    public WebElement errorOkButton;
+
+    public void clickOkError(){
+        errorOkButton.click();
+    }
+
+    public void clickEmployeePayments(){
+        employeePaymentsButton.click();
+    }
+
+    public void clickProducts(){
+        productsButton.click();
+    }
+
+    public void clickProductCategories(){
+        productCategoriesButton.click();
+    }
+
 }

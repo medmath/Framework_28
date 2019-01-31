@@ -1,9 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccfb06b8-bb42-4d7e-8d56-0d2a5360ffd0" name="Default Changelist" comment="">
+    <list default="true" id="ccfb06b8-bb42-4d7e-8d56-0d2a5360ffd0" name="Default Changelist" comment="Made multiple changes to pages package. &#10;&#10;Added createProduct test&#10;&#10;Added  sleep to">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/lunch/tests/functional_tests/lunch/Products/NewProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/lunch/tests/functional_tests/lunch/Products/NewProduct.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotsNewProduct20190131021334.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotsNewProduct20190131021942.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotsNewProduct20190131022112.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotsNewProduct20190131022254.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotsNewProduct20190131032258.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotsNewProduct20190131032343.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotsNewProduct20190131032507.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotsNewProduct20190131033031.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotsNewProduct20190131033339.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotsNewProduct20190131033433.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotsNewProduct20190131033528.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotsNewProduct20190131033833.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotsNewProduct20190131034442.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotsNewProduct20190131034623.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotsorderAndDeleteTest20190131021548.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lunch/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lunch/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/lunch/pages/LunchHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lunch/pages/LunchHomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/lunch/pages/ProductsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lunch/pages/ProductsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lunch/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lunch/utilities/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/Framework_28.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lunch/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/lunch/pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lunch/pages/LunchHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/lunch/pages/LunchHomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lunch/pages/ProductsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/lunch/pages/ProductsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lunch/tests/functional_tests/lunch/PreviousOrderExportDeleteTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/lunch/tests/functional_tests/lunch/PreviousOrderExportDeleteTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lunch/utilities/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/lunch/utilities/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/report.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,22 +44,33 @@
     <session id="-185734107">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="2" />
+          <entry key="html" value="1" />
+          <entry key="java" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="2" />
+          <entry key="HTML" value="1" />
+          <entry key="JAVA" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="240" />
+          <entry key="java" value="3363" />
+          <entry key="txt" value="305" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="240" />
+          <entry key="JAVA" value="3363" />
+          <entry key="PLAIN_TEXT" value="305" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -42,22 +80,70 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/pages/ProductsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+            <state relative-caret-position="663">
+              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#130#131#0" expanded="true" />
-                <element signature="e#156#157#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/pages/LunchHomePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#926#927#0" expanded="true" />
+                <element signature="e#964#965#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/tests/functional_tests/lunch/Products/NewProduct.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="731">
+              <caret line="43" column="93" lean-forward="true" selection-start-line="43" selection-start-column="93" selection-end-line="43" selection-end-column="93" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/pages/LunchHomePage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/pages/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="340">
+              <caret line="60" column="9" lean-forward="true" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/utilities/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-136">
+              <caret line="51" column="46" selection-start-line="51" selection-start-column="46" selection-end-line="51" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/tests/functional_tests/login/LoginTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,7 +176,6 @@
         <option value="$PROJECT_DIR$/src/test/java/com/lunch/utilities/BrowserUtils.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/lunch/tests/functional_tests/login/Login1.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/lunch/tests/smoke_tests/denemeTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/lunch/utilities/TestBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/lunch/tests/smoke_tests/Test1_Try.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/lunch/tests/smoke_tests/OrderAndDeleteTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/lunch/tests/functional_tests/login/LoginTests.java" />
@@ -98,17 +183,19 @@
         <option value="$PROJECT_DIR$/src/test/java/com/lunch/pages/PreviousOrdersPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/lunch/utilities/Pages.java" />
         <option value="$PROJECT_DIR$/configuration.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/com/lunch/pages/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/lunch/tests/functional_tests/lunch/PreviousOrderExportDeleteTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/lunch/pages/ProductsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/lunch/utilities/TestBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/lunch/pages/LunchHomePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/lunch/pages/ProductsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/lunch/pages/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/lunch/tests/functional_tests/lunch/Products/NewProduct.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="932" />
-    <option name="width" value="994" />
-    <option name="height" value="1039" />
+    <option name="x" value="931" />
+    <option name="width" value="995" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -116,7 +203,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -166,172 +253,91 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="lunch" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Framework_28" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Framework_28" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lunch" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="functional_tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Framework_28" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Framework_28" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lunch" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="functional_tests" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Framework_28" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Framework_28" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lunch" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="functional_tests" type="462c0819:PsiDirectoryNode" />
+              <item name="lunch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Framework_28" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Framework_28" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lunch" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="functional_tests" type="462c0819:PsiDirectoryNode" />
+              <item name="lunch" type="462c0819:PsiDirectoryNode" />
+              <item name="Products" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Framework_28" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Framework_28" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lunch" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="smoke_tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Framework_28" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Framework_28" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lunch" type="462c0819:PsiDirectoryNode" />
               <item name="utilities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Framework_28" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Framework_28" type="462c0819:PsiDirectoryNode" />
+              <item name="test-output" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548862650414" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548968809470" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/java/com/lunch/pages/LoginPage.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/java/com/lunch/pages/PreviousOrdersPage.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/java/com/lunch/utilities/Pages.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/java/com/lunch/utilities/TestBase.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/test-classes/com/lunch/pages/LoginPage.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/test-classes/com/lunch/pages/PreviousOrdersPage.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/test-classes/com/lunch/utilities/Pages.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/test-classes/com/lunch/utilities/TestBase.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/test-output/report.html</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/java/com/lunch/pages/LunchHomePage.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/java/com/lunch/tests/functional_tests/login/LoginTests.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/java/com/lunch/tests/functional_tests/lunch/PreviousOrderExportDeleteTests.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/java/com/lunch/tests/smoke_tests/OrderAndDeleteTest.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/test-classes/com/lunch/pages/LunchHomePage.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/test-classes/com/lunch/tests/functional_tests/login/LoginTests.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/test-classes/com/lunch/tests/functional_tests/lunch/PreviousOrderExportDeleteTests.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/test-classes/com/lunch/tests/smoke_tests/OrderAndDeleteTest.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/test-output/ScreenshotsreceivedOrderPrice20190130095846.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/test-output/ScreenshotsreceivedOrderPrice20190130100258.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/test-output/ScreenshotsreceivedOrderPrice20190130100532.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/test-output/ScreenshotsreceivedOrderPrice20190130100607.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/test-output/ScreenshotsreceivedOrderPrice20190130100835.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/test-output/ScreenshotsreceivedOrderPrice20190130101021.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/test-output/ScreenshotsreceivedOrderPrice20190130101110.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/test-output/ScreenshotsreceivedOrderPrice20190130101303.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/test-output/ScreenshotsreceivedOrderPrice20190130101758.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/test-output/ScreenshotsreceivedOrderPrice20190130102306.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/test-output/ScreenshotsreceivedOrderPrice20190130102651.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/test-output/ScreenshotsreceivedOrderPrice20190130102850.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/test-output/ScreenshotsreceivedOrderPrice20190130103328.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/test-output/ScreenshotsreceivedOrderPrice20190130103502.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/test-output/ScreenshotsreceivedOrderPrice20190130103708.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/test-output/Screenshotstest120190129111743.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/test-output/Screenshotstest220190129063716.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/test-output/Screenshotstest220190129112054.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/test-output/Screenshotstest220190130090703.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/test-output/Screenshotstest220190130090853.png</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/java/com/lunch/tests/smoke_tests/Test1_Try.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/test-classes/com/lunch/tests/smoke_tests/Test1_Try.class</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -345,8 +351,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.PreviousOrderExportDeleteTests.receivedOrderPrice">
-    <configuration name="LoginTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.NewProduct">
+    <configuration name="LoginTests.test1" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Framework_28" />
       <extension name="coverage">
         <pattern>
@@ -356,6 +362,42 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.lunch.tests.functional_tests.login" />
       <option name="MAIN_CLASS_NAME" value="com.lunch.tests.functional_tests.login.LoginTests" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewProduct" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Framework_28" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lunch.tests.functional_tests.lunch.Products.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lunch.tests.functional_tests.lunch.Products" />
+      <option name="MAIN_CLASS_NAME" value="com.lunch.tests.functional_tests.lunch.Products.NewProduct" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewProduct.NewProduct" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Framework_28" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lunch.tests.functional_tests.lunch.Products.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lunch.tests.functional_tests.lunch.Products" />
+      <option name="MAIN_CLASS_NAME" value="com.lunch.tests.functional_tests.lunch.Products.NewProduct" />
+      <option name="METHOD_NAME" value="NewProduct" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -366,7 +408,7 @@
       <module name="Framework_28" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lunch.tests.functional_tests.login.*" />
+          <option name="PATTERN" value="com.lunch.tests.smoke_tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -374,22 +416,6 @@
       <option name="MAIN_CLASS_NAME" value="com.lunch.tests.smoke_tests.OrderAndDeleteTest" />
       <option name="METHOD_NAME" value="orderAndDeleteTest" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PreviousOrderExportDeleteTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Framework_28" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lunch.tests.functional_tests.lunch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.lunch.tests.functional_tests.lunch" />
-      <option name="MAIN_CLASS_NAME" value="com.lunch.tests.functional_tests.lunch.PreviousOrderExportDeleteTests" />
       <properties />
       <listeners />
       <method v="2">
@@ -414,30 +440,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="&lt;default&gt; (3)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Framework_28" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="PACKAGE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="TestNG.&lt;default&gt; (3)" />
-      <item itemvalue="TestNG.LoginTests" />
-      <item itemvalue="TestNG.OrderAndDeleteTest.orderAndDeleteTest" />
-      <item itemvalue="TestNG.PreviousOrderExportDeleteTests" />
       <item itemvalue="TestNG.PreviousOrderExportDeleteTests.receivedOrderPrice" />
+      <item itemvalue="TestNG.LoginTests.test1" />
+      <item itemvalue="TestNG.NewProduct.NewProduct" />
+      <item itemvalue="TestNG.OrderAndDeleteTest.orderAndDeleteTest" />
+      <item itemvalue="TestNG.NewProduct" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.PreviousOrderExportDeleteTests.receivedOrderPrice" />
-        <item itemvalue="TestNG.PreviousOrderExportDeleteTests" />
-        <item itemvalue="TestNG.LoginTests" />
+        <item itemvalue="TestNG.NewProduct" />
+        <item itemvalue="TestNG.NewProduct.NewProduct" />
+        <item itemvalue="TestNG.LoginTests.test1" />
         <item itemvalue="TestNG.OrderAndDeleteTest.orderAndDeleteTest" />
-        <item itemvalue="TestNG.&lt;default&gt; (3)" />
+        <item itemvalue="TestNG.PreviousOrderExportDeleteTests.receivedOrderPrice" />
       </list>
     </recent_temporary>
   </component>
@@ -452,45 +468,60 @@
       <option name="presentableId" value="Default" />
       <updated>1548737407054</updated>
     </task>
+    <task id="LOCAL-00001" summary="added employee payments, products, product categories">
+      <created>1548958825959</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1548958825959</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added employee payments, products, product categories">
+      <created>1548958961501</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1548958961501</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PreviousOrderExportDeleteTests_receivedOrderPrice - 2019.01.30 at 10h 19m 07s.xml">
-      <configuration name="PreviousOrderExportDeleteTests.receivedOrderPrice" configurationId="TestNG" />
+    <history-entry file="NewProduct - 2019.01.31 at 15h 33m 40s.xml">
+      <configuration name="NewProduct" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PreviousOrderExportDeleteTests_receivedOrderPrice - 2019.01.30 at 10h 20m 08s.xml">
-      <configuration name="PreviousOrderExportDeleteTests.receivedOrderPrice" configurationId="TestNG" />
+    <history-entry file="NewProduct - 2019.01.31 at 15h 34m 35s.xml">
+      <configuration name="NewProduct" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PreviousOrderExportDeleteTests_receivedOrderPrice - 2019.01.30 at 10h 23m 07s.xml">
-      <configuration name="PreviousOrderExportDeleteTests.receivedOrderPrice" configurationId="TestNG" />
+    <history-entry file="NewProduct - 2019.01.31 at 15h 35m 30s.xml">
+      <configuration name="NewProduct" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PreviousOrderExportDeleteTests - 2019.01.30 at 10h 26m 52s.xml">
-      <configuration name="PreviousOrderExportDeleteTests" configurationId="TestNG" />
+    <history-entry file="NewProduct - 2019.01.31 at 15h 36m 43s.xml">
+      <configuration name="NewProduct" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PreviousOrderExportDeleteTests_receivedOrderPrice - 2019.01.30 at 10h 28m 52s.xml">
-      <configuration name="PreviousOrderExportDeleteTests.receivedOrderPrice" configurationId="TestNG" />
+    <history-entry file="NewProduct - 2019.01.31 at 15h 38m 34s.xml">
+      <configuration name="NewProduct" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PreviousOrderExportDeleteTests_receivedOrderPrice - 2019.01.30 at 10h 30m 14s.xml">
-      <configuration name="PreviousOrderExportDeleteTests.receivedOrderPrice" configurationId="TestNG" />
+    <history-entry file="NewProduct - 2019.01.31 at 15h 42m 29s.xml">
+      <configuration name="NewProduct" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PreviousOrderExportDeleteTests_receivedOrderPrice - 2019.01.30 at 10h 33m 03s.xml">
-      <configuration name="PreviousOrderExportDeleteTests.receivedOrderPrice" configurationId="TestNG" />
+    <history-entry file="NewProduct_NewProduct - 2019.01.31 at 15h 44m 44s.xml">
+      <configuration name="NewProduct.NewProduct" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PreviousOrderExportDeleteTests_receivedOrderPrice - 2019.01.30 at 10h 33m 29s.xml">
-      <configuration name="PreviousOrderExportDeleteTests.receivedOrderPrice" configurationId="TestNG" />
+    <history-entry file="NewProduct - 2019.01.31 at 15h 46m 25s.xml">
+      <configuration name="NewProduct" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PreviousOrderExportDeleteTests_receivedOrderPrice - 2019.01.30 at 10h 35m 03s.xml">
-      <configuration name="PreviousOrderExportDeleteTests.receivedOrderPrice" configurationId="TestNG" />
+    <history-entry file="NewProduct - 2019.01.31 at 15h 47m 33s.xml">
+      <configuration name="NewProduct" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PreviousOrderExportDeleteTests_receivedOrderPrice - 2019.01.30 at 10h 37m 09s.xml">
-      <configuration name="PreviousOrderExportDeleteTests.receivedOrderPrice" configurationId="TestNG" />
+    <history-entry file="NewProduct - 2019.01.31 at 15h 59m 42s.xml">
+      <configuration name="NewProduct" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17114094" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17315437" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -499,15 +530,16 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32931727" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32797858" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32765958" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32931727" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32907802" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32931727" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32907802" />
+      <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -517,6 +549,13 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added employee payments, products, product categories" />
+    <option name="LAST_COMMIT_MESSAGE" value="added employee payments, products, product categories" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/testng_runner.xml" />
@@ -636,39 +675,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/utilities/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/tests/functional_tests/lunch/ReceivedOrderPriceCompareTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/tests/functional_tests/login/LoginTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="17" column="128" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="128" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/tests/smoke_tests/OrderAndDeleteTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="41" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="18" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/pages/PreviousOrdersPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -693,15 +705,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/pages/LoginPage.java">
+    <entry file="file://$PROJECT_DIR$/test-output/report.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1054#1055#0" expanded="true" />
-            <element signature="e#1089#1090#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="306">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -715,22 +722,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/pages/ProductsPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/tests/smoke_tests/OrderAndDeleteTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        <state relative-caret-position="355">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#130#131#0" expanded="true" />
-            <element signature="e#156#157#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/pages/ProductsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/pages/LunchHomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="374">
+          <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#926#927#0" expanded="true" />
+            <element signature="e#964#965#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/utilities/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-136">
+          <caret line="51" column="46" selection-start-line="51" selection-start-column="46" selection-end-line="51" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/tests/functional_tests/login/LoginTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/tests/functional_tests/lunch/Products/NewProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="93" lean-forward="true" selection-start-line="43" selection-start-column="93" selection-end-line="43" selection-end-column="93" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="60" column="9" lean-forward="true" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
