@@ -14,6 +14,13 @@ public class LunchHomePage {
    @FindBy(linkText = "Previous Orders")
     public WebElement previousOrderButton;
 
+    @FindBy(linkText = "Employee Payments")
+    public WebElement employeePaymentsButton;
 
+    @FindBy(linkText = "Products")
+    public WebElement productsButton;
+
+    @FindBy(linkText = "Product Categories")
+    public WebElement productCategoriesButton;
 
 }
