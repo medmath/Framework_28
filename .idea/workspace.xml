@@ -1,36 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccfb06b8-bb42-4d7e-8d56-0d2a5360ffd0" name="Default Changelist" comment="Made multiple changes to pages package. &#10;&#10;Added createProduct test&#10;&#10;Added  sleep to">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/lunch/tests/functional_tests/lunch/Products/NewProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/lunch/tests/functional_tests/lunch/Products/NewProduct.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotsNewProduct20190131021334.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotsNewProduct20190131021942.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotsNewProduct20190131022112.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotsNewProduct20190131022254.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotsNewProduct20190131032258.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotsNewProduct20190131032343.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotsNewProduct20190131032507.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotsNewProduct20190131033031.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotsNewProduct20190131033339.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotsNewProduct20190131033433.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotsNewProduct20190131033528.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotsNewProduct20190131033833.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotsNewProduct20190131034442.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotsNewProduct20190131034623.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotsorderAndDeleteTest20190131021548.png" afterDir="false" />
+    <list default="true" id="ccfb06b8-bb42-4d7e-8d56-0d2a5360ffd0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/lunch/tests/functional_tests/lunch/Products/DeleteProducts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/lunch/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lunch/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/lunch/pages/LunchHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lunch/pages/LunchHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/lunch/pages/ProductsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lunch/pages/ProductsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/lunch/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lunch/utilities/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/Framework_28.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lunch/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/lunch/pages/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lunch/pages/LunchHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/lunch/pages/LunchHomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lunch/pages/ProductsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/lunch/pages/ProductsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lunch/tests/functional_tests/lunch/PreviousOrderExportDeleteTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/lunch/tests/functional_tests/lunch/PreviousOrderExportDeleteTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lunch/utilities/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/lunch/utilities/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/report.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,25 +18,25 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="1" />
-          <entry key="java" value="14" />
+          <entry key="java" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="14" />
+          <entry key="JAVA" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="3363" />
-          <entry key="txt" value="305" />
+          <entry key="txt" value="413" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="3363" />
-          <entry key="PLAIN_TEXT" value="305" />
+          <entry key="PLAIN_TEXT" value="413" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
@@ -115,7 +88,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/pages/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
@@ -123,6 +96,15 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/tests/functional_tests/lunch/Products/DeleteProducts.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -331,7 +313,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548968809470" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548974938787" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -482,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1548958961501</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Made multiple changes to pages package. &#10;&#10;Added createProduct test&#10;&#10;Added  sleep to clickLunchButton method&#10;&#10;Changed lunchButton selector type to css">
+      <created>1548968868438</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1548968868438</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -555,7 +544,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added employee payments, products, product categories" />
-    <option name="LAST_COMMIT_MESSAGE" value="added employee payments, products, product categories" />
+    <MESSAGE value="Made multiple changes to pages package. &#10;&#10;Added createProduct test&#10;&#10;Added  sleep to clickLunchButton method&#10;&#10;Changed lunchButton selector type to css" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made multiple changes to pages package. &#10;&#10;Added createProduct test&#10;&#10;Added  sleep to clickLunchButton method&#10;&#10;Changed lunchButton selector type to css" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/testng_runner.xml" />
@@ -791,6 +781,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/tests/functional_tests/lunch/Products/DeleteProducts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
         </state>
       </provider>
     </entry>
