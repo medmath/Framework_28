@@ -2,33 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccfb06b8-bb42-4d7e-8d56-0d2a5360ffd0" name="Default Changelist" comment="Made multiple changes to pages package. &#10;&#10;Added createProduct test&#10;&#10;Added  sleep to">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/lunch/tests/functional_tests/lunch/Products/NewProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/lunch/tests/functional_tests/lunch/Products/NewProduct.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotsNewProduct20190131021334.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotsNewProduct20190131021942.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotsNewProduct20190131022112.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotsNewProduct20190131022254.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotsNewProduct20190131032258.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotsNewProduct20190131032343.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotsNewProduct20190131032507.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotsNewProduct20190131033031.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotsNewProduct20190131033339.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotsNewProduct20190131033433.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotsNewProduct20190131033528.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotsNewProduct20190131033833.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotsNewProduct20190131034442.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotsNewProduct20190131034623.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotsorderAndDeleteTest20190131021548.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/lunch/tests/functional_tests/lunch/employeePaymentTab/CreateRegisterCash.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/lunch/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lunch/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/lunch/pages/LunchHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lunch/pages/LunchHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/lunch/pages/ProductsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lunch/pages/ProductsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lunch/pages/EmployeePaymentsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lunch/pages/EmployeePaymentsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/lunch/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lunch/utilities/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/Framework_28.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lunch/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/lunch/pages/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lunch/pages/LunchHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/lunch/pages/LunchHomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lunch/pages/ProductsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/lunch/pages/ProductsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lunch/tests/functional_tests/lunch/PreviousOrderExportDeleteTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/lunch/tests/functional_tests/lunch/PreviousOrderExportDeleteTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lunch/pages/EmployeePaymentsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/lunch/pages/EmployeePaymentsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lunch/utilities/BrowserUtils$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lunch/utilities/BrowserUtils$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lunch/utilities/BrowserUtils.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/lunch/utilities/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/lunch/utilities/TestBase.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/report.html" afterDir="false" />
     </list>
@@ -74,14 +55,42 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-911738589">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="15" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="15" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1138" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1138" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/pages/ProductsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+            <state relative-caret-position="193">
+              <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,8 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/pages/LunchHomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+            <state relative-caret-position="249">
+              <caret line="37" column="31" lean-forward="true" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#926#927#0" expanded="true" />
@@ -104,10 +113,30 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/pages/EmployeePaymentsPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#263#264#0" expanded="true" />
+                <element signature="e#329#330#0" expanded="true" />
+                <element signature="e#716#717#0" expanded="true" />
+                <element signature="e#752#753#0" expanded="true" />
+                <element signature="e#889#890#0" expanded="true" />
+                <element signature="e#934#935#0" expanded="true" />
+                <element signature="e#965#966#0" expanded="true" />
+                <element signature="e#993#994#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/tests/functional_tests/lunch/Products/NewProduct.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="43" column="93" lean-forward="true" selection-start-line="43" selection-start-column="93" selection-end-line="43" selection-end-column="93" />
+            <state relative-caret-position="-22">
+              <caret line="29" column="29" lean-forward="true" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,11 +144,41 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/pages/LoginPage.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/utilities/ApplicationConstants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="60" column="9" lean-forward="true" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/utilities/BrowserUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="108" column="58" selection-start-line="108" selection-start-column="58" selection-end-line="108" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/tests/functional_tests/lunch/employeePaymentTab/CreateRegisterCash.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="452">
+              <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/tests/functional_tests/lunch/PreviousOrderExportDeleteTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -130,8 +189,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/utilities/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-136">
-              <caret line="51" column="46" selection-start-line="51" selection-start-column="46" selection-end-line="51" selection-end-column="46" />
+            <state relative-caret-position="299">
+              <caret line="45" column="2" selection-start-line="45" selection-start-column="2" selection-end-line="45" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -142,7 +201,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/tests/functional_tests/login/LoginTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
+            <state relative-caret-position="88">
               <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -184,18 +243,29 @@
         <option value="$PROJECT_DIR$/src/test/java/com/lunch/utilities/Pages.java" />
         <option value="$PROJECT_DIR$/configuration.properties" />
         <option value="$PROJECT_DIR$/src/test/java/com/lunch/tests/functional_tests/lunch/PreviousOrderExportDeleteTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/lunch/utilities/TestBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/lunch/pages/LunchHomePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/lunch/pages/ProductsPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/lunch/pages/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/lunch/tests/functional_tests/lunch/Products/NewProduct.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/lunch/utilities/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/lunch/tests/functional_tests/lunch/Products/CreateRegisterCash.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/lunch/tests/functional_tests/lunch/employeePaymentTab/CreateRegister.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/lunch/tests/functional_tests/lunch/employeePaymentTab/CreateRegisterCash.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/lunch/pages/EmployeePaymentsPage.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="931" />
-    <option name="width" value="995" />
-    <option name="height" value="1040" />
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="804" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -203,7 +273,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -274,7 +343,7 @@
               <item name="lunch" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="functional_tests" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="lunch" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Framework_28" type="b2602c69:ProjectViewProjectNode" />
@@ -286,6 +355,7 @@
               <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="functional_tests" type="462c0819:PsiDirectoryNode" />
               <item name="lunch" type="462c0819:PsiDirectoryNode" />
+              <item name="employeePaymentTab" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Framework_28" type="b2602c69:ProjectViewProjectNode" />
@@ -318,20 +388,16 @@
               <item name="lunch" type="462c0819:PsiDirectoryNode" />
               <item name="utilities" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Framework_28" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Framework_28" type="462c0819:PsiDirectoryNode" />
-              <item name="test-output" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548968809470" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549043188626" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -351,18 +417,36 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.NewProduct">
-    <configuration name="LoginTests.test1" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.CreateRegisterCash.CreateRegister (1)">
+    <configuration name="CreateRegisterCash.CreateRegister (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Framework_28" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lunch.tests.functional_tests.login.*" />
+          <option name="PATTERN" value="com.lunch.tests.functional_tests.lunch.employeePaymentTab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.lunch.tests.functional_tests.login" />
-      <option name="MAIN_CLASS_NAME" value="com.lunch.tests.functional_tests.login.LoginTests" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="com.lunch.tests.functional_tests.lunch.employeePaymentTab" />
+      <option name="MAIN_CLASS_NAME" value="com.lunch.tests.functional_tests.lunch.employeePaymentTab.CreateRegisterCash" />
+      <option name="METHOD_NAME" value="CreateRegister" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateRegisterCash.CreateRegister" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Framework_28" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lunch.tests.functional_tests.lunch.Products.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lunch.tests.functional_tests.lunch.Products" />
+      <option name="MAIN_CLASS_NAME" value="com.lunch.tests.functional_tests.lunch.Products.CreateRegisterCash" />
+      <option name="METHOD_NAME" value="CreateRegister" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -404,24 +488,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderAndDeleteTest.orderAndDeleteTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Framework_28" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lunch.tests.smoke_tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.lunch.tests.smoke_tests" />
-      <option name="MAIN_CLASS_NAME" value="com.lunch.tests.smoke_tests.OrderAndDeleteTest" />
-      <option name="METHOD_NAME" value="orderAndDeleteTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PreviousOrderExportDeleteTests.receivedOrderPrice" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Framework_28" />
       <extension name="coverage">
@@ -442,18 +508,18 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.PreviousOrderExportDeleteTests.receivedOrderPrice" />
-      <item itemvalue="TestNG.LoginTests.test1" />
       <item itemvalue="TestNG.NewProduct.NewProduct" />
-      <item itemvalue="TestNG.OrderAndDeleteTest.orderAndDeleteTest" />
       <item itemvalue="TestNG.NewProduct" />
+      <item itemvalue="TestNG.CreateRegisterCash.CreateRegister" />
+      <item itemvalue="TestNG.CreateRegisterCash.CreateRegister (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CreateRegisterCash.CreateRegister (1)" />
+        <item itemvalue="TestNG.CreateRegisterCash.CreateRegister" />
+        <item itemvalue="TestNG.PreviousOrderExportDeleteTests.receivedOrderPrice" />
         <item itemvalue="TestNG.NewProduct" />
         <item itemvalue="TestNG.NewProduct.NewProduct" />
-        <item itemvalue="TestNG.LoginTests.test1" />
-        <item itemvalue="TestNG.OrderAndDeleteTest.orderAndDeleteTest" />
-        <item itemvalue="TestNG.PreviousOrderExportDeleteTests.receivedOrderPrice" />
       </list>
     </recent_temporary>
   </component>
@@ -486,42 +552,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NewProduct - 2019.01.31 at 15h 33m 40s.xml">
-      <configuration name="NewProduct" configurationId="TestNG" />
+    <history-entry file="CreateRegisterCash_CreateRegister - 2019.02.01 at 11h 06m 21s.xml">
+      <configuration name="CreateRegisterCash.CreateRegister" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="NewProduct - 2019.01.31 at 15h 34m 35s.xml">
-      <configuration name="NewProduct" configurationId="TestNG" />
+    <history-entry file="CreateRegisterCash_CreateRegister - 2019.02.01 at 11h 09m 13s.xml">
+      <configuration name="CreateRegisterCash.CreateRegister" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="NewProduct - 2019.01.31 at 15h 35m 30s.xml">
-      <configuration name="NewProduct" configurationId="TestNG" />
+    <history-entry file="CreateRegisterCash_CreateRegister - 2019.02.01 at 11h 22m 17s.xml">
+      <configuration name="CreateRegisterCash.CreateRegister" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="NewProduct - 2019.01.31 at 15h 36m 43s.xml">
-      <configuration name="NewProduct" configurationId="TestNG" />
+    <history-entry file="CreateRegisterCash_CreateRegister - 2019.02.01 at 11h 37m 30s.xml">
+      <configuration name="CreateRegisterCash.CreateRegister" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="NewProduct - 2019.01.31 at 15h 38m 34s.xml">
-      <configuration name="NewProduct" configurationId="TestNG" />
+    <history-entry file="CreateRegisterCash_CreateRegister_(1) - 2019.02.01 at 11h 47m 18s.xml">
+      <configuration name="CreateRegisterCash.CreateRegister (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="NewProduct - 2019.01.31 at 15h 42m 29s.xml">
-      <configuration name="NewProduct" configurationId="TestNG" />
+    <history-entry file="CreateRegisterCash_CreateRegister_(1) - 2019.02.01 at 11h 49m 04s.xml">
+      <configuration name="CreateRegisterCash.CreateRegister (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="NewProduct_NewProduct - 2019.01.31 at 15h 44m 44s.xml">
-      <configuration name="NewProduct.NewProduct" configurationId="TestNG" />
+    <history-entry file="CreateRegisterCash_CreateRegister_(1) - 2019.02.01 at 11h 53m 08s.xml">
+      <configuration name="CreateRegisterCash.CreateRegister (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="NewProduct - 2019.01.31 at 15h 46m 25s.xml">
-      <configuration name="NewProduct" configurationId="TestNG" />
+    <history-entry file="CreateRegisterCash_CreateRegister_(1) - 2019.02.01 at 11h 56m 39s.xml">
+      <configuration name="CreateRegisterCash.CreateRegister (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="NewProduct - 2019.01.31 at 15h 47m 33s.xml">
-      <configuration name="NewProduct" configurationId="TestNG" />
+    <history-entry file="CreateRegisterCash_CreateRegister_(1) - 2019.02.01 at 12h 27m 10s.xml">
+      <configuration name="CreateRegisterCash.CreateRegister (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="NewProduct - 2019.01.31 at 15h 59m 42s.xml">
-      <configuration name="NewProduct" configurationId="TestNG" />
+    <history-entry file="CreateRegisterCash_CreateRegister_(1) - 2019.02.01 at 12h 32m 44s.xml">
+      <configuration name="CreateRegisterCash.CreateRegister (1)" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="0" y="23" width="1440" height="804" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17315437" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17525035" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -530,7 +596,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32931727" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32765958" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3272472" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -538,8 +604,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32907802" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32907802" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.3286517" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -548,6 +613,7 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -588,13 +654,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/pages/YourLunchAccountPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/pages/OrdersByVendorPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -609,20 +668,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/pages/EmployeePaymentsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/pages/ProductCategoriesPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/pages/AlertsPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -631,13 +676,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/tests/functional_tests/login/Login1.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/pages/TodaysOrdersPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/tests/smoke_tests/denemeTest.java" />
     <entry file="file://$PROJECT_DIR$/test-output/ScreenshotspositiveLoginTest20190129115743.png">
       <provider selected="true" editor-type-id="images" />
@@ -661,29 +699,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/utilities/BrowserUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3120">
-          <caret line="226" column="44" selection-start-line="226" selection-start-column="6" selection-end-line="226" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/utilities/ApplicationConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/tests/functional_tests/lunch/ReceivedOrderPriceCompareTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/pages/PreviousOrdersPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/configuration.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -712,16 +729,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/tests/functional_tests/lunch/PreviousOrderExportDeleteTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/tests/smoke_tests/OrderAndDeleteTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
@@ -732,52 +739,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/pages/ProductsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/pages/LunchHomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#926#927#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/utilities/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="51" column="46" selection-start-line="51" selection-start-column="46" selection-end-line="51" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/tests/functional_tests/login/LoginTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
+        <state relative-caret-position="88">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/tests/functional_tests/lunch/Products/NewProduct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="93" lean-forward="true" selection-start-line="43" selection-start-column="93" selection-end-line="43" selection-end-column="93" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -786,8 +751,140 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/pages/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="60" column="9" lean-forward="true" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+        <state relative-caret-position="870">
+          <caret line="60" column="9" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/utilities/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="45" column="2" selection-start-line="45" selection-start-column="2" selection-end-line="45" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/pages/PreviousOrdersPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/pages/ProductCategoriesPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/pages/YourLunchAccountPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/pages/TodaysOrdersPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/pages/LunchHomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="37" column="31" lean-forward="true" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#926#927#0" expanded="true" />
+            <element signature="e#964#965#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/tests/functional_tests/lunch/Products/CreateRegisterCash.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/utilities/ApplicationConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/pages/ProductsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/tests/functional_tests/lunch/Products/NewProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="29" column="29" lean-forward="true" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/tests/functional_tests/lunch/PreviousOrderExportDeleteTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/utilities/BrowserUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="108" column="58" selection-start-line="108" selection-start-column="58" selection-end-line="108" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/pages/EmployeePaymentsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#752#753#0" expanded="true" />
+            <element signature="e#889#890#0" expanded="true" />
+            <element signature="e#934#935#0" expanded="true" />
+            <element signature="e#965#966#0" expanded="true" />
+            <element signature="e#993#994#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/lunch/tests/functional_tests/lunch/employeePaymentTab/CreateRegisterCash.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
