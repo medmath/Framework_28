@@ -44,6 +44,21 @@ public class ProductsPage {
     @FindBy(css = ".o_web_client [tabindex='0']:nth-child(5) [tabindex='-1']:nth-of-type(1) a")
     public WebElement categorySandwich;
 
+    @FindBy(xpath = "//body[@class='o_web_client']/div[@class='o_main']/div[@class='o_main_content']/div[@class='o_control_panel']//span[@class='btn-group btn-group-sm']/button[1]")
+    public WebElement previousProductsButton;
+
+    @FindBy(css = ".o_cp_pager .btn-group-sm [type='button']:nth-of-type(2)")
+    public WebElement nextProductsButton;
+
+    @FindBy(css = ".o_cp_sidebar .o_dropdown:nth-of-type(3) [data-toggle]")
+    public WebElement indivProductAction;
+
+    @FindBy(linkText = "Delete")
+    public WebElement indivDelete;
+
+    @FindBy(css = ".modal-footer [type='button']:nth-of-type(1)")
+    public WebElement deleteOkay;
+
     public void clickCreateButton(){
         createButton.click();
     }
@@ -58,6 +73,20 @@ public class ProductsPage {
 
     public void clickSaveButton(){
         newProductSave.click();
+    }
+
+    public void clickPreviousProductsButton(){
+        previousProductsButton.click();
+    }
+
+    public void clickNextProductsButton(){
+        nextProductsButton.click();
+    }
+
+    public void deleteIndivProduct(){
+        indivProductAction.click();
+        indivDelete.click();
+        deleteOkay.click();
     }
 
     //Allows for creating a new product
