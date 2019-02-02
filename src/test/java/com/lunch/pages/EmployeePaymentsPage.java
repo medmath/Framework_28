@@ -36,7 +36,8 @@ public class EmployeePaymentsPage {
     public WebElement newAdd;
     @FindBy(css = ".o_center_panel [type='button']:nth-of-type(3)")
     public WebElement newRemoveAll;
-
+    @FindBy(css = ".o_cp_sidebar li:nth-of-type(2) [href]")
+    public WebElement newDelete;
 
 
 
@@ -82,5 +83,9 @@ public class EmployeePaymentsPage {
 
     public void clickNewRemoveAll(){
         newRemoveAll.click();
+    }
+
+    public void clickDelete(){
+        newDelete.click();
     }
 }
