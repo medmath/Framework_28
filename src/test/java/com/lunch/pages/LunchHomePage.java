@@ -11,8 +11,9 @@ public class LunchHomePage {
     }
 
 
-   @FindBy(linkText = "Previous Orders")
+    @FindBy(css = "[data-menu='99'] .oe_menu_text")
     public WebElement previousOrderButton;
+
 
     @FindBy(linkText = "Employee Payments")
     public WebElement employeePaymentsButton;
@@ -25,6 +26,9 @@ public class LunchHomePage {
 
     @FindBy(css = ".modal-footer span")
     public WebElement errorOkButton;
+
+    @FindBy(css = "[data-menu='103'] .oe_menu_text")
+    public WebElement controlAccountsButton;
 
     public void clickOkError(){
         errorOkButton.click();
@@ -40,6 +44,14 @@ public class LunchHomePage {
 
     public void clickProductCategories(){
         productCategoriesButton.click();
+    }
+
+    public void clickPreviousOrder() {
+        previousOrderButton.click();
+    }
+
+    public void clickControlAccounts() {
+        controlAccountsButton.click();
     }
 
 }
