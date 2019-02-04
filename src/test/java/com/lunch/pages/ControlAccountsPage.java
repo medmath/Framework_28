@@ -46,6 +46,14 @@ public class ControlAccountsPage {
     @FindBy(css = "[value='create_uid\\/id']")
     public WebElement getCreatedByFieldWhenAdded;
 
+    @FindBy(css = ".o_list_buttons [type='button']:nth-of-type(2)")
+    public WebElement importButton;
+
+    @FindBy(css = "[placeholder='No file chosen\\.\\.\\.']")
+    public WebElement uploadFilePath;
+
+    @FindBy(css = "[for='my-file-selector']")
+    public WebElement loadFileButton;
 
 
 

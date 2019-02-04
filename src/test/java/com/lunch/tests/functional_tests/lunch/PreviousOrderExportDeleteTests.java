@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class PreviousOrderExportDeleteTests extends TestBase {
 
     @Test
-    public void receivedOrderPrice(){
+    public void tryToDeleteAPreviousOrder(){
 
         extentLogger = report.createTest("Trying to delete a previous order");
 
@@ -79,26 +79,15 @@ public class PreviousOrderExportDeleteTests extends TestBase {
 
         pages.getControlAccountsPage().exportButton.click();
 
-
         extentLogger.info("Adding information");
         pages.getControlAccountsPage().createdByField.click();
         pages.getControlAccountsPage().addButton.click();
         String crea=pages.getControlAccountsPage().createdByField.getText();
 
-
-
-
         extentLogger.info("Verifying matching the words");
         Assert.assertEquals(crea,pages.getControlAccountsPage().getCreatedByFieldWhenAdded.getText());
 
-
-
         extentLogger.pass("Add functionality during export files");
-
-
-
-
-
 
     }
 
