@@ -121,7 +121,7 @@ public class ControlAccountsPage {
     }
 
     public String addedAmount(int x){
-       return Driver.getDriver().findElement(By.xpath("/html/body/div[1]/div[2]/div[2]/div/div/div/table/tbody[2]/tr['+x+']/td[6]")).getText();
+       return Driver.getDriver().findElement(By.xpath("/html/body/div[1]/div[2]/div[2]/div/div/div/table/tbody[2]/tr["+x+"]/td[6]")).getText();
     }
 
     public double sumAccountsDisplayedAccount() throws InterruptedException {

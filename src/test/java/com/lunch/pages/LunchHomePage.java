@@ -30,6 +30,9 @@ public class LunchHomePage {
     @FindBy(css = "[data-menu='103'] .oe_menu_text")
     public WebElement controlAccountsButton;
 
+    @FindBy(css = "[data-menu='107'] .oe_menu_text")
+    public WebElement alertsPageButton;
+
     public void clickOkError(){
         errorOkButton.click();
     }
@@ -52,6 +55,10 @@ public class LunchHomePage {
 
     public void clickControlAccounts() {
         controlAccountsButton.click();
+    }
+
+    public void clickAlertsPage(){
+        alertsPageButton.click();
     }
 
 }

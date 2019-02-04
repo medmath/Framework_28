@@ -17,8 +17,8 @@ public class OpenNewAccountTest extends TestBase {
         extentLogger.info("Going to lunch page");
         pages.login().clickLunchButton();
 
-        extentLogger.info("Getting past error");
-        pages.lunchHomePage().clickOkError();
+//        extentLogger.info("Getting past error");
+//        pages.lunchHomePage().clickOkError();
 
         extentLogger.info("Going to Control Accounts section.");
         pages.lunchHomePage().controlAccountsButton.click();
@@ -54,8 +54,8 @@ public class OpenNewAccountTest extends TestBase {
         extentLogger.info("Going to lunch page");
         pages.login().clickLunchButton();
 
-        extentLogger.info("Getting past error");
-        pages.lunchHomePage().clickOkError();
+//        extentLogger.info("Getting past error");
+//        pages.lunchHomePage().clickOkError();
 
         extentLogger.info("Going to Control Accounts section.");
         pages.lunchHomePage().controlAccountsButton.click();
@@ -103,8 +103,8 @@ public class OpenNewAccountTest extends TestBase {
         extentLogger.info("Going to lunch page");
         pages.login().clickLunchButton();
 
-        extentLogger.info("Getting past error");
-        pages.lunchHomePage().clickOkError();
+//        extentLogger.info("Getting past error");
+//        pages.lunchHomePage().clickOkError();
 
         extentLogger.info("Going to Control Accounts section.");
         pages.lunchHomePage().controlAccountsButton.click();
@@ -118,7 +118,7 @@ public class OpenNewAccountTest extends TestBase {
         pages.getControlAccountsPage().selectingUser();
 
         pages.getControlAccountsPage().selectingDate();
-        pages.getControlAccountsPage().setCreateNewAccount("54.00","New Account opened");
+        pages.getControlAccountsPage().setCreateNewAccount("61.00","New Account opened");
 
         extentLogger.info("Saving new account details");
         pages.getControlAccountsPage().saveButton.click();
@@ -134,10 +134,10 @@ public class OpenNewAccountTest extends TestBase {
 
         Thread.sleep(2000);
         extentLogger.info("Getting the added amount");
-        String amount = pages.getControlAccountsPage().addedAmount(0);
+        String amount = pages.getControlAccountsPage().addedAmount(b);
         System.out.println(amount);
         extentLogger.info("Verifying equality of amounts");
-        Assert.assertEquals("54.00", amount);
+        Assert.assertEquals("61.00", amount);
 
         extentLogger.pass("Succesfull verifying new account");
     }
