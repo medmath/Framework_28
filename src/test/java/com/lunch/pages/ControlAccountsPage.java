@@ -1,7 +1,9 @@
 package com.lunch.pages;
 
 import com.lunch.utilities.Driver;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -55,7 +57,48 @@ public class ControlAccountsPage {
     @FindBy(css = "[for='my-file-selector']")
     public WebElement loadFileButton;
 
+    @FindBy(css = ".o_list_buttons [type='button']:nth-of-type(1)")
+    public WebElement createNewAccount;
 
+    @FindBy(css = ".o_input_dropdown [type]")
+    public WebElement getUsers;
+
+    @FindBy(css = ".o_web_client [tabindex='-1']:nth-of-type(5) a")
+    public WebElement CRMManager;
+
+    @FindBy(css = ".datepicker-days tr:nth-of-type(6) .new:nth-of-type(6)")
+    public WebElement selectDate;
+
+    @FindBy(css = "tr:nth-of-type(2) [type]")
+    public WebElement clickDate;
+
+    @FindBy(css = "[name='amount']")
+    public WebElement amount1;
+
+    @FindBy(css="[name='description']")
+    public WebElement description1;
+
+    @FindBy(css = ".o_form_buttons_edit [type='button']:nth-of-type(1)")
+    public WebElement saveButton;
+
+    public void setCreateNewAccount(String amount, String decription){
+        amount1.sendKeys(Keys.BACK_SPACE,Keys.BACK_SPACE,Keys.BACK_SPACE,Keys.BACK_SPACE);
+        amount1.sendKeys(amount);
+
+        description1.sendKeys(decription);
+
+    }
+
+    public void selectingUser(){
+       new Actions(Driver.getDriver()).moveToElement(CRMManager).perform();
+       CRMManager.click();
+    }
+
+    public void selectingDate(){
+        clickDate.click();
+        new Actions(Driver.getDriver()).moveToElement(selectDate).perform();
+        selectDate.click();
+    }
 
 
 
