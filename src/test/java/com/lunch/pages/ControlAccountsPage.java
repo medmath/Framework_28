@@ -85,6 +85,11 @@ public class ControlAccountsPage {
     @FindBy(css = "tbody .o_group_has_content:nth-of-type(2) .o_group_name")
     public WebElement CRM_ManagerText;
 
+    @FindBy(css = "tbody .o_group_has_content:nth-of-type(2) .o_list_number")
+    public WebElement secondAmount;
+
+    @FindBy(css = "[title='Total']")
+    public WebElement totalAmount;
 
     public void setCreateNewAccount(String amount, String decription){
         amount1.sendKeys(Keys.BACK_SPACE,Keys.BACK_SPACE,Keys.BACK_SPACE,Keys.BACK_SPACE);
@@ -117,6 +122,16 @@ public class ControlAccountsPage {
 
     public String addedAmount(int x){
        return Driver.getDriver().findElement(By.xpath("/html/body/div[1]/div[2]/div[2]/div/div/div/table/tbody[2]/tr['+x+']/td[6]")).getText();
+    }
+
+    public double sumAccountsDisplayedAccount() throws InterruptedException {
+        double totalAccounts=0.0;
+        for (int i = 1; i <=6 ; i++) {
+            WebElement account = Driver.getDriver().findElement(By.xpath("/html/body/div[1]/div[2]/div[2]/div/div/div/table/tbody/tr["+i+"]/td[5]"));
+           //Thread.sleep(1000);
+            totalAccounts+=Double.parseDouble(account.getText().replaceFirst(",",""));
+        }
+        return totalAccounts;
     }
 
 }
