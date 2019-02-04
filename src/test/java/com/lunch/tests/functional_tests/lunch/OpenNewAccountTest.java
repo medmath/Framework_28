@@ -41,9 +41,54 @@ public class OpenNewAccountTest extends TestBase {
         Assert.assertEquals("65.00",pages.getControlAccountsPage().amount1.getText());
 
 
+    }
+
+    @Test
+    public void verifyingNewAccount() throws InterruptedException {
+        extentLogger = report.createTest("Add function when exporting at Control Accounts Tab");
+
+        extentLogger.info("Logging to the application");
+        pages.login().login(ConfigurationReader.getProperty("mailManager"), ConfigurationReader.getProperty("passwordManager"));
+
+        extentLogger.info("Going to lunch page");
+        pages.login().clickLunchButton();
+
+        extentLogger.info("Getting past error");
+        pages.lunchHomePage().clickOkError();
+
+        extentLogger.info("Going to Control Accounts section.");
+        pages.lunchHomePage().controlAccountsButton.click();
+
+        extentLogger.info(("Getting the account count"));
+        int a=pages.getControlAccountsPage().findAddedAccount();
+
+        extentLogger.info("Creating New Account section.");
+        pages.getControlAccountsPage().createNewAccount.click();
+
+        extentLogger.info("Entering the values");
+        pages.getControlAccountsPage().getUsers.click();
+        Thread.sleep(2000);
+        pages.getControlAccountsPage().selectingUser();
 
 
+        pages.getControlAccountsPage().selectingDate();
+        pages.getControlAccountsPage().setCreateNewAccount("88.88","New Account opened");
+
+        extentLogger.info("Saving new account details");
+        pages.getControlAccountsPage().saveButton.click();
+        Thread.sleep(2000);
+
+        extentLogger.info("Going to Control Accounts ");
+        pages.lunchHomePage().controlAccountsButton.click();
+
+        extentLogger.info(("Getting the account count"));
+        int b=pages.getControlAccountsPage().findAddedAccount();
+
+        extentLogger.info("Verifying number of account");
+        Assert.assertEquals(b-a,1);
 
     }
+
+
 
 }

@@ -81,6 +81,10 @@ public class ControlAccountsPage {
     @FindBy(css = ".o_form_buttons_edit [type='button']:nth-of-type(1)")
     public WebElement saveButton;
 
+    @FindBy(css = "tbody .o_group_has_content:nth-of-type(2) .o_group_name")
+    public WebElement CRM_ManagerText;
+
+
     public void setCreateNewAccount(String amount, String decription){
         amount1.sendKeys(Keys.BACK_SPACE,Keys.BACK_SPACE,Keys.BACK_SPACE,Keys.BACK_SPACE);
         amount1.sendKeys(amount);
@@ -100,7 +104,15 @@ public class ControlAccountsPage {
         selectDate.click();
     }
 
+    public int findAddedAccount(){
+        String CrmLinkText = CRM_ManagerText.getText();
+        String number = CrmLinkText.substring(19);
+        number= number.substring(0, number.length()-1);
+        int a=Integer.parseInt(number);
 
+        return a;
+
+    }
 
 
 
