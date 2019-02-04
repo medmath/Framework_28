@@ -87,7 +87,7 @@ public class PreviousOrderExportDeleteTests extends TestBase {
         extentLogger.info("Verifying matching the words");
         Assert.assertEquals(crea,pages.getControlAccountsPage().getCreatedByFieldWhenAdded.getText());
 
-        extentLogger.pass("Add functionality during export files");
+
 
     }
 
