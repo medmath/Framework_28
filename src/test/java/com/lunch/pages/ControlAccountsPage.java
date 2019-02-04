@@ -1,6 +1,7 @@
 package com.lunch.pages;
 
 import com.lunch.utilities.Driver;
+import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -114,6 +115,8 @@ public class ControlAccountsPage {
 
     }
 
-
+    public String addedAmount(int x){
+       return Driver.getDriver().findElement(By.xpath("/html/body/div[1]/div[2]/div[2]/div/div/div/table/tbody[2]/tr['+x+']/td[6]")).getText();
+    }
 
 }
