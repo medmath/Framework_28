@@ -1,6 +1,7 @@
 package com.lunch.pages;
 
 import com.lunch.utilities.Driver;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -27,5 +28,41 @@ public class PreviousOrdersPage {
 
     @FindBy(css = ".modal-title")
     public WebElement warningMessage;
+
+    @FindBy(css = ".ui-sortable .o_data_row:nth-of-type(1) input")
+    public WebElement selectPreviousFirstOrder;
+
+    @FindBy(css = ".o_cp_sidebar .o_dropdown:nth-of-type(1) [data-toggle]")
+    public WebElement printButton;
+
+    @FindBy(css = ".o_cp_sidebar .btn-group:nth-of-type(1) div:nth-of-type(1) [href]")
+    public WebElement lunchOrderPrintButton;
+
+    @FindBy(xpath = "//*[@id=\"wrapwrap\"]/main/div[2]/div/table/tbody/tr[1]/td[1]/strong")
+    public WebElement invoiceUser;
+
+    @FindBy(css = ".fa-times")
+    public WebElement cancelReportPopUp;
+
+    @FindBy(css = ".border-black .text-right span:nth-of-type(1)")
+    public WebElement totalPriceOnInvoice;
+
+    @FindBy(xpath = "/html/body/div[1]/div[2]/div[2]/div/iframe")
+    public WebElement iFrame;
+
+    @FindBy(css = ".ui-sortable .o_data_row:nth-of-type(1) .o_list_number")
+    public WebElement unitPrice;
+
+    public double setSelectPrint(int a){
+       double price=0.0;
+        for (int i = 1; i <=a; i++) {
+            WebElement element=Driver.getDriver().findElement(By.cssSelector(".ui-sortable .o_data_row:nth-of-type("+i+") input"));
+            WebElement priceOfElement=Driver.getDriver().findElement(By.cssSelector(".ui-sortable .o_data_row:nth-of-type("+i+") .o_list_number"));
+            element.click();
+              price+=Double.parseDouble(priceOfElement.getText());
+        }
+    return price;
+    }
+
 
 }
