@@ -3,6 +3,7 @@ package com.lunch.tests.functional_tests.lunch.employeePaymentTab;
 import com.lunch.utilities.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -15,13 +16,15 @@ import org.testng.annotations.Test;
         @Test
         public void CreateRegister(){
             extentLogger=report.createTest("Create Register Test");
+
+            extentLogger.info("Logging to application");
             pages.login().login(ConfigurationReader.getProperty("mailManager"),ConfigurationReader.getProperty("passwordManager"));
 
             extentLogger.info("Going to lunch page");
             pages.login().clickLunchButton();
 
-//            extentLogger.info("Getting past error");
-//            pages.lunchHomePage().clickOkError();
+            extentLogger.info("Getting past error");
+            pages.lunchHomePage().clickOkError();
 
             extentLogger.info("Going to Employee Payments");
             pages.lunchHomePage().employeePaymentsButton.click();

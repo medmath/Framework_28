@@ -45,5 +45,7 @@ public class ExportCVS extends TestBase {
        String registerCM=driver.findElement(By.xpath("/html/body/div[1]/div[2]/div[1]/ol/li")).getText();
         Assert.assertEquals(registerCM,"Register Cash Moves");
 
+        extentLogger.pass("Succesful Register Cash Moves Test");
+
     }
 }

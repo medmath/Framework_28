@@ -35,6 +35,7 @@ public class deleteRegisterCash extends TestBase {
         extentLogger.info("Clicking Ok");
         driver.findElement(By.cssSelector(".modal-footer [type='button']:nth-of-type(1) span"));
 
+        extentLogger.pass("Successful Delete Test");
 
     }
 }
