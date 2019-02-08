@@ -27,7 +27,7 @@ public class DeleteProducts extends TestBase {
         extentLogger.info("Going to lunch page..");
         pages.login().clickLunchButton();
 
-//        pages.lunchHomePage().clickOkError();
+        pages.lunchHomePage().clickOkError();
 
         extentLogger.info("Going to products page..");
         pages.lunchHomePage().clickProducts();
