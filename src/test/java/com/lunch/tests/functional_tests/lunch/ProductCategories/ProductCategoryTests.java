@@ -62,11 +62,6 @@ public class ProductCategoryTests extends TestBase {
 
         JavascriptExecutor js = (JavascriptExecutor)driver;
 
-
-        if (js.executeScript("return document.readyState").toString().equals("complete")){
-            System.out.println("Page Is loaded.");
-        }
-
         for (int i=0; i<10; i++){
             try {
                 Thread.sleep(1000);
