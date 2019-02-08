@@ -62,6 +62,12 @@ public class PreviousOrdersPage {
     @FindBy(css = ".ui-sortable .o_data_row:nth-of-type(1) .o_list_number")
     public WebElement unitPrice;
 
+    @FindBy(xpath = "/html/body/div[1]/div[2]/div[1]/ol/li")
+    public WebElement yourOrderText;
+
+    @FindBy(css=".ui-sortable .o_data_row:nth-of-type(7) input")
+    public WebElement lastOrderCheckBox;
+
     public double setSelectPrint(int a){
        double price=0.0;
         for (int i = 1; i <=a; i++) {

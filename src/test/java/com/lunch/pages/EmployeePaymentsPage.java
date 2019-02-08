@@ -39,7 +39,8 @@ public class EmployeePaymentsPage {
     @FindBy(css = ".o_cp_sidebar li:nth-of-type(2) [href]")
     public WebElement newDelete;
 
-
+     @FindBy(css=".oe_highlight")
+     public WebElement feelingLucky;
 
     public void clickCreate() {
         createButton.click();
@@ -88,4 +89,6 @@ public class EmployeePaymentsPage {
     public void clickDelete(){
         newDelete.click();
     }
+
+
 }
