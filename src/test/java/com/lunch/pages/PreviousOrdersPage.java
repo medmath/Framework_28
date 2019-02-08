@@ -29,6 +29,15 @@ public class PreviousOrdersPage {
     @FindBy(css = ".modal-title")
     public WebElement warningMessage;
 
+    @FindBy(css = ".o_cp_sidebar .o_dropdown:nth-of-type(3) [data-toggle]")
+    public WebElement individualActionButton;
+
+    @FindBy(linkText = "Delete")
+    public WebElement individualDeleteDropdown;
+
+    @FindBy(css = ".ui-sortable .o_data_row:nth-of-type(1) .o_required_modifier")
+    public  WebElement firstItem;
+
     @FindBy(css = ".ui-sortable .o_data_row:nth-of-type(1) input")
     public WebElement selectPreviousFirstOrder;
 
