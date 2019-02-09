@@ -21,6 +21,7 @@ public class ProductCategoryTests extends TestBase {
     public void createProductCategory(){
         extentLogger = report.createTest("Create new product category test");
 
+        extentLogger.info("Signing in and going to product categories page");
         pages.login().login(ConfigurationReader.getProperty("mailManager"), ConfigurationReader.getProperty("passwordManager"));
 
         pages.login().clickLunchButton();
@@ -29,6 +30,7 @@ public class ProductCategoryTests extends TestBase {
 
         pages.lunchHomePage().clickProductCategories();
 
+        extentLogger.info("Creating new product category");
         //Clicks create button, inputs name as "American", does NOT click save
         pages.getProductCategoriesPage().createNewProductCategory("American");
 
@@ -38,11 +40,15 @@ public class ProductCategoryTests extends TestBase {
 
         WebDriverWait wait = new WebDriverWait(driver, 5);
 
+        extentLogger.info("Verifying new product category was created");
         wait.until(ExpectedConditions.titleContains("American"));
+
 
         String afterIndicator = driver.findElement(By.cssSelector(".breadcrumb li:nth-of-type(2)")).getText();
 
+
         Assert.assertNotEquals(afterIndicator, beforeIndicator);
+        extentLogger.pass("Successful product categor addition test");
 
     }
 
@@ -50,6 +56,7 @@ public class ProductCategoryTests extends TestBase {
     public void deleteProductCategory(){
         extentLogger = report.createTest("Delete last item in product categories");
 
+        extentLogger.info("Logging in and going to Product Categories Page");
         pages.login().login(ConfigurationReader.getProperty("mailManager"), ConfigurationReader.getProperty("passwordManager"));
 
         pages.login().clickLunchButton();
@@ -72,7 +79,7 @@ public class ProductCategoryTests extends TestBase {
             }
         }
 
-
+        extentLogger.info("Counting rows");
         List<WebElement> productsTable = driver.findElements(By.cssSelector("[class='ui-sortable'] tr"));
 
         int count = productsTable.size();
@@ -81,8 +88,10 @@ public class ProductCategoryTests extends TestBase {
 
         WebElement lastItemCheckbox = driver.findElement(By.cssSelector(".ui-sortable .o_data_row:nth-of-type("+count+") [type]"));
 
+        extentLogger.info("Clicking last item's checkbox");
         lastItemCheckbox.click();
 
+        extentLogger.info("Deleting item");
         pages.getProductCategoriesPage().clickMainPageAction();
 
         wait.until(ExpectedConditions.elementToBeClickable(pages.getProductCategoriesPage().mainPageDelete));
@@ -95,14 +104,15 @@ public class ProductCategoryTests extends TestBase {
 
         wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("modal-content")));
 
+        extentLogger.info("Counting the number of rows remaining");
         driver.findElement(By.cssSelector(".ui-sortable .o_data_row:nth-of-type(13) .o_required_modifier")).click();
 
         String finalCount = driver.findElement(By.cssSelector(".o_pager_limit")).getText();
 
         String earlierCount = String.valueOf(count);
 
-        System.out.println(finalCount + " " + earlierCount);
 
+        extentLogger.pass("Successful Product Category deletion test");
         Assert.assertNotEquals(count, finalCount);
 
 

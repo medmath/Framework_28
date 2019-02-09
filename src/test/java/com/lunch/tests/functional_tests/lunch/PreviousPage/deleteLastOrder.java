@@ -41,5 +41,7 @@ public class deleteLastOrder extends TestBase {
         extentLogger.info("Select last order");
         pages.getPreviousOrdersPage().lastOrderCheckBox.click();
 
+        extentLogger.pass("Success");
+
     }
 }

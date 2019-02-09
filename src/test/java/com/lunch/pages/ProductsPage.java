@@ -59,6 +59,9 @@ public class ProductsPage {
     @FindBy(css = ".modal-footer [type='button']:nth-of-type(1)")
     public WebElement deleteOkay;
 
+    @FindBy(css = "thead tr .o_column_sortable:nth-of-type(2)")
+    public WebElement productNameSort;
+
     public void clickCreateButton(){
         createButton.click();
     }
@@ -81,6 +84,10 @@ public class ProductsPage {
 
     public void clickNextProductsButton(){
         nextProductsButton.click();
+    }
+
+    public void clickProductNameSort(){
+        productNameSort.click();
     }
 
     public void deleteIndivProduct(){

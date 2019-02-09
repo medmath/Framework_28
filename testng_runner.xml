@@ -1,10 +1,11 @@
-TESTNG_runner.xml
-        <!DOCTYPE suite SYSTEM "http://52.39.162.23/web/com.lunch.tests.functional_tests.com.lunch.tests.functional_tests.login" >
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Lunch" verbose="1">
 
     <test name="Lunch Automated Tests">
         <packages>
-            <package name=".*"></package>
+            <package name=".*">
+
+            </package>
         </packages>
     </test>
 

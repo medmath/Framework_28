@@ -45,13 +45,6 @@ public class LoginPage {
 
     }
 
-    /* FIXME
-    * Figure out a way to make this explicit wait or at least something that's not Thread.sleep
-    * The problem is that there is a loading button overlay that gets in the way of the lunch button,
-    * so selenium can't fix it. Its not that important now but it might become a problem in the future
-    * if we add a lot of stuff to this site.
-    */
-
     public void clickLunchButton(){
 
         try {
