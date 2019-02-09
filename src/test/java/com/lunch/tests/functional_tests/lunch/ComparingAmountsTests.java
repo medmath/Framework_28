@@ -17,8 +17,8 @@ public class ComparingAmountsTests extends TestBase {
         extentLogger.info("Going to lunch page");
         pages.login().clickLunchButton();
 
-//        extentLogger.info("Getting past error");
-//        pages.lunchHomePage().clickOkError();
+        extentLogger.info("Getting past error");
+        pages.lunchHomePage().clickOkError();
 
         extentLogger.info("Going to Control Accounts section.");
         pages.lunchHomePage().controlAccountsButton.click();
