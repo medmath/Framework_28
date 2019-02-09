@@ -21,11 +21,14 @@ public class PreviousOrderPrintTest extends TestBase {
         extentLogger.info("Going to lunch page");
         pages.login().clickLunchButton();
 
+        extentLogger.info("Getting past error");
+        pages.lunchHomePage().clickOkError();
+
         extentLogger.info("Going to Previous Orders section.");
         pages.lunchHomePage().clickPreviousOrder();
 
         extentLogger.info("Selecting orders and returning total price ");
-        double addedTotalPrice=pages.getPreviousOrdersPage().setSelectPrint(3);
+        double addedTotalPrice=pages.getPreviousOrdersPage().setSelectPrint(2);
 
 
         pages.getPreviousOrdersPage().printButton.click();
