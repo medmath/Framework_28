@@ -1,12 +1,17 @@
 package com.lunch.pages;
 
 import com.lunch.utilities.Driver;
+import com.lunch.utilities.TestBase;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Wait;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class AlertsPage {
+public class AlertsPage extends TestBase {
     public AlertsPage(){
         PageFactory.initElements(Driver.getDriver(),this);
     }
@@ -34,6 +39,57 @@ public class AlertsPage {
 
     @FindBy(css = ".modal-footer [type='button']:nth-of-type(2) span")
     public WebElement closeButton;
+
+    @FindBy(css = ".o_list_buttons [type='button']:nth-of-type(1)")
+    public WebElement createButton;
+
+    @FindBy(css = "[name='message']")
+    public  WebElement descriptionBox;
+
+    @FindBy(css = ".o_form_buttons_edit [type='button']:nth-of-type(1)")
+    public WebElement saveButton;
+
+    @FindBy(css = ".o_cp_sidebar .o_dropdown:nth-of-type(2) [data-toggle]")
+    public WebElement actionButton;
+
+    @FindBy(linkText = "Delete")
+    public WebElement deleteButton;
+
+    @FindBy(css = ".modal-footer [type='button']:nth-of-type(1)")
+    public WebElement okDelete;
+
+    @FindBy(css = ".modal-footer [type='button']:nth-of-type(1)")
+    public WebElement differentView;
+
+
+    public void clickCreate(){
+        createButton.click();
+    }
+
+    public void clickDescriptionBox(){
+        descriptionBox.click();
+    }
+
+    public void clickSaveButton(){
+        saveButton.click();
+    }
+
+    public void deleteFromAction(){
+        actionButton.click();
+        deleteButton.click();
+        okDelete.click();
+
+        try {
+            Thread.sleep(1000);
+        }catch (InterruptedException e){}
+
+    }
+
+    public void clickDifferentView(){
+        differentView.click();
+    }
+
+
 
     public boolean checkAllSelected(){
         for (int i = 1; i <=5 ; i++) {

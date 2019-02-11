@@ -69,7 +69,7 @@ public class ProductCategoryTests extends TestBase {
 
         JavascriptExecutor js = (JavascriptExecutor)driver;
 
-        for (int i=0; i<10; i++){
+        for (int i=0; i<20; i++){
             try {
                 Thread.sleep(1000);
             }catch (InterruptedException e) {}
